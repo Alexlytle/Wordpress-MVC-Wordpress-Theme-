@@ -197,3 +197,17 @@ Routes::map('example/:example', function($params){
     Routes::load('uniquepage.php', $params, $query, 200);
 });
 
+
+
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/Alexlytle/WebFieldTheme',
+	__FILE__,
+	'https://webfielddesign.com/'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
+//Optional: If you're using a private repository, specify the access token like this:
+// $myUpdateChecker->setAuthentication('WEB_SECRET');
