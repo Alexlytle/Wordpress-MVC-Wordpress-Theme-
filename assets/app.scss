@@ -1,0 +1,122 @@
+
+@import './woocomerce/_minicart.scss';
+
+.pizza_order_box {
+    padding: 0!important;
+    border-right: 1px solid black;
+            padding: 15px;
+            border-bottom: 1px solid black;
+    .price_details{
+        color: black;
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        display: flex;
+        align-items: flex-start;
+        
+     
+     
+        p:nth-child(2){
+            padding: 0;
+            margin: 0;
+            color:#fe671a;
+            font-size: 12px;
+        }
+        span:nth-child(1){
+            display:flex;
+            font-size: 30px;
+            align-items: center;
+            p{
+                margin: 0;
+                padding: 0;
+                &:nth-child(2){
+                    margin-left: 10px;
+                }
+            }
+            
+        }
+
+
+          
+       img {
+            width: 100%!important;
+          }
+  
+    }
+
+    img {
+        width: 100%!important;
+      }
+    h1{
+        color: black;
+      
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px 10px 0 10px;
+        margin: 0;
+    }
+}
+.cat_row{
+    padding: 30px;
+    a{
+        color: black;
+         font-family: 'Open Sans', sans-serif;
+    }
+}
+.order-detail-col{
+    background-color:#fe671a ;
+}
+.pizza_feature_box{
+    img{
+        width: 100%;
+    }
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+a.add-to-cart-pizza,.drop_down_quantity {
+    cursor: pointer;
+    background: white;
+    padding: 15px;
+    color: #fe671a;
+    border: 3px solid #fe671a;
+    &:hover{
+        background-color:#fe671a;
+        color: white;
+        text-decoration: none;
+    }
+}
+input.search-submit {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+form.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+//footer
+.text-muted {
+    color: #6c757d!important;
+    background: whitesmoke;
+    padding: 10px;
+}
+
+input.search-field {
+    padding: 7px;
+    border: none;
+}
+
+
+main#main {
+    min-height: 75vh;
+}
