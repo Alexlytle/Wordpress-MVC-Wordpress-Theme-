@@ -208,5 +208,5 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setAuthentication('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');
 
