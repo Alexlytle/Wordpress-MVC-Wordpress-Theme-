@@ -178,13 +178,13 @@ $fragments['.cart-wrapper'] = ob_get_clean();
 // }
 
 
-require_once  get_template_directory() . '/vendor/acf/acf.php';
+// require_once  get_template_directory() . '/vendor/acf/acf.php';
 
-// (Optional) Hide the ACF admin menu item.
-add_filter('acf/settings/show_admin', 'my_acf_settings_show_admin');
-function my_acf_settings_show_admin( $show_admin ) {
-    return true;
-}
+// // (Optional) Hide the ACF admin menu item.
+// add_filter('acf/settings/show_admin', 'my_acf_settings_show_admin');
+// function my_acf_settings_show_admin( $show_admin ) {
+//     return true;
+// }
 
 require_once  get_template_directory() . '/custom-posts-and-category/advance-custom-fields.php';
 
