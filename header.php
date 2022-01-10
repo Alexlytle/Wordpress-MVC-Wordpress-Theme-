@@ -27,7 +27,7 @@ $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 
 ?>
 
-<h1>hello token</h1>
+<h1>hello token two</h1>
 <img style="width: 100px;" src="<?php echo $image[0];?>" alt="" srcset="">
     </a>
         <?php
