@@ -201,7 +201,7 @@ Routes::map('example/:example', function($params){
 
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/Alexlytle/WebFieldTheme',
+	'https://github.com/Alexlytle/WebFieldTheme/',
 	__FILE__,
 	'https://webfielddesign.com/'
 );
