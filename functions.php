@@ -201,12 +201,12 @@ Routes::map('example/:example', function($params){
 
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/Alexlytle/WebFieldTheme',
+	'',
 	__FILE__,
-	'https://webfielddesign.com/'
+	''
 );
 
 //Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('main');
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setBranch('');
+$myUpdateChecker->setAuthentication('');
 
